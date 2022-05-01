@@ -1,0 +1,9 @@
+id("hg").findOne().click()
+arr=['送出鲜花🌸','送出火箭🚀','送出飞机✈️','送出轮船🚢'
+    ,'续费骑士🐴']
+while(1){
+    setText(arr[random(0,4)])
+    id("afb").findOne().click()
+    //id("hj").findOne().click()
+    sleep(3000)
+}

@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "7637791B-3",
+    "build_number": 3,
+    "build_time": 1613965830386,
+    "release": false
+  },
+  "encryptLevel": 1,
+  "useFeatures": [],
+  "icon": "res/icon.png",
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "Powered by 小兜兜",
+    "stableMode": false
+  },
+  "main": "ui.js",
+  "name": "小红书脚本",
+  "optimization": {
+    "removeOpenCv": false,
+    "unusedResources": true
+  },
+  "packageName": "com.xiaohongshujiaoben",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

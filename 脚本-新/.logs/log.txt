@@ -1,0 +1,137 @@
+2021-02-09 02:49:29.839/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:49:29.895/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时0.054000秒
+2021-02-09 02:49:29.896/ERROR:     在函数体之后丢失 (/storage/emulated/0/脚本/列王.js#40)
+    在函数体之后丢失
+
+2021-02-09 02:51:20.039/TRACE: 开始运行[/storage/emulated/0/脚本/红淘客/快看点/快看点.js]
+2021-02-09 02:51:22.606/TRACE: 
+------------
+[/storage/emulated/0/脚本/红淘客/快看点/快看点.js]运行结束，用时2.567000秒
+2021-02-09 02:52:45.689/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:52:45.724/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时0.035000秒
+2021-02-09 02:52:45.724/ERROR:     缺少参数列表后的) (/storage/emulated/0/脚本/列王.js#46)
+    缺少参数列表后的)
+
+2021-02-09 02:54:04.593/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:54:04.626/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时0.033000秒
+2021-02-09 02:54:04.627/ERROR:     缺少参数列表后的) (/storage/emulated/0/脚本/列王.js#46)
+    缺少参数列表后的)
+
+2021-02-09 02:54:21.290/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:54:21.325/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时0.035000秒
+2021-02-09 02:54:21.325/ERROR:     缺少参数列表后的) (/storage/emulated/0/脚本/列王.js#19)
+    缺少参数列表后的)
+
+2021-02-09 02:54:44.922/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:54:51.152/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时6.229000秒
+2021-02-09 02:55:14.199/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:55:15.186/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时0.987000秒
+2021-02-09 02:55:22.570/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:55:24.605/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时2.034000秒
+2021-02-09 02:55:34.365/TRACE: 开始运行[/storage/emulated/0/脚本/列王.js]
+2021-02-09 02:55:35.628/TRACE: 
+------------
+[/storage/emulated/0/脚本/列王.js]运行结束，用时1.263000秒
+2021-02-09 02:56:29.027/TRACE: 开始运行[/storage/emulated/0/脚本/小红书/ui.js]
+2021-02-09 02:56:36.468/TRACE: 
+------------
+[/storage/emulated/0/脚本/小红书/ui.js]运行结束，用时7.440000秒
+2021-02-09 02:57:00.493/ERROR: uncaughtException: thread = Thread[main,5,main]
+okhttp3.internal.io.ࡓ: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at okhttp3.internal.io.ॼ$ނ.accept(:1)
+	at okhttp3.internal.io.జ.ؠ(Unknown Source:13)
+	at okhttp3.internal.io.ɋ$֏.ؠ(Unknown Source:37)
+	at okhttp3.internal.io.ჸ$֏.ކ(Unknown Source:43)
+	at okhttp3.internal.io.ჸ$֏.run(:2)
+	at okhttp3.internal.io.ਅ$ؠ.run(Unknown Source:2)
+	at android.os.Handler.handleCallback(Handler.java:888)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:213)
+	at android.app.ActivityThread.main(ActivityThread.java:8147)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+Caused by: com.stardust.pio.UncheckedIOException: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at com.stardust.pio.PFiles.write(Unknown Source:12)
+	at org.autojs.autojs.ui.edit.editor.LegacyCodeEditor$ފ.invokeSuspend(:2)
+	at okhttp3.internal.io.ݡ.resumeWith(Unknown Source:8)
+	at okhttp3.internal.io.ws.run(:2)
+	at okhttp3.internal.io.jv.ކ(Unknown Source:2)
+	at okhttp3.internal.io.jv$֏.run(:5)
+Caused by: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at libcore.io.IoBridge.open(IoBridge.java:496)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+	at com.stardust.pio.PFiles.write(Unknown Source:2)
+	... 5 more
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8015)
+	at libcore.io.IoBridge.open(IoBridge.java:482)
+	... 8 more
+2021-02-09 03:03:05.845/TRACE: 开始运行[/storage/emulated/0/脚本/红淘客/趣头条.js]
+2021-02-09 03:03:09.287/TRACE: 
+------------
+[/storage/emulated/0/脚本/红淘客/趣头条.js]运行结束，用时3.433000秒
+2021-02-09 03:03:09.288/ERROR: Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动 (/storage/emulated/0/脚本/红淘客/趣头条.js#6)
+Wrapped com.stardust.autojs.runtime.exception.ScriptException: 无障碍服务未启动
+    at /storage/emulated/0/脚本/红淘客/趣头条.js:6:0
+
+2021-02-09 03:07:47.785/ERROR: uncaughtException: thread = Thread[main,5,main]
+okhttp3.internal.io.ࡓ: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at okhttp3.internal.io.ॼ$ނ.accept(:1)
+	at okhttp3.internal.io.జ.ؠ(Unknown Source:13)
+	at okhttp3.internal.io.ɋ$֏.ؠ(Unknown Source:37)
+	at okhttp3.internal.io.ჸ$֏.ކ(Unknown Source:43)
+	at okhttp3.internal.io.ჸ$֏.run(:2)
+	at okhttp3.internal.io.ਅ$ؠ.run(Unknown Source:2)
+	at android.os.Handler.handleCallback(Handler.java:888)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:213)
+	at android.app.ActivityThread.main(ActivityThread.java:8147)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+Caused by: com.stardust.pio.UncheckedIOException: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at com.stardust.pio.PFiles.write(Unknown Source:12)
+	at org.autojs.autojs.ui.edit.editor.LegacyCodeEditor$ފ.invokeSuspend(:2)
+	at okhttp3.internal.io.ݡ.resumeWith(Unknown Source:8)
+	at okhttp3.internal.io.ws.run(:2)
+	at okhttp3.internal.io.jv.ކ(Unknown Source:2)
+	at okhttp3.internal.io.jv$֏.run(:5)
+Caused by: java.io.FileNotFoundException: : open failed: ENOENT (No such file or directory)
+	at libcore.io.IoBridge.open(IoBridge.java:496)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:186)
+	at com.stardust.pio.PFiles.write(Unknown Source:2)
+	... 5 more
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:252)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:167)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8015)
+	at libcore.io.IoBridge.open(IoBridge.java:482)
+	... 8 more
+2021-02-09 18:47:31.538/TRACE: 开始运行[/storage/emulated/0/脚本/红淘客/ui.js]
+2021-02-09 18:47:32.853/TRACE: 
+------------
+[/storage/emulated/0/脚本/红淘客/ui.js]运行结束，用时1.307000秒
+2021-02-09 18:47:40.347/TRACE: 开始运行[/storage/emulated/0/脚本/快手极速.js]

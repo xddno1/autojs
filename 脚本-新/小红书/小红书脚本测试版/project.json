@@ -1,0 +1,29 @@
+{
+  "assets": [],
+  "build": {
+    "build_id": "889E4885-3",
+    "build_number": 3,
+    "build_time": 1612618478236,
+    "release": false
+  },
+  "encryptLevel": 1,
+  "useFeatures": [],
+  "icon": "res/icon.png",
+  "launchConfig": {
+    "displaySplash": false,
+    "hideLogs": true,
+    "splashIcon": "res/splashIcon.png",
+    "splashText": "Powered by 小兜兜",
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "小红书脚本测试版",
+  "optimization": {
+    "removeOpenCv": true,
+    "unusedResources": false
+  },
+  "packageName": "com.xhsjb",
+  "scripts": {},
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}

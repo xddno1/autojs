@@ -1,0 +1,13 @@
+while(1)
+{
+    click(540,1980);
+    sleep(100)
+    click(540,1420)
+    sleep(100)
+    //click(540,1500)
+    sleep(100)
+    if(id("a50").exists()){
+        while(className("android.widget.ImageView").findOne().id()=="com.dragon.read:id/a50"||!className("android.widget.ImageView").findOne().click());
+        className("android.widget.TextView").text("关闭广告").findOne().click()
+    }
+}

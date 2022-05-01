@@ -1,0 +1,21 @@
+requestScreenCapture()
+queueimg = images.read("./remake.jpg")
+closeimg = images.read("./close.jpg")
+confirmimg = images.read("./confirm.jpg")
+playimg = images.read("./start.jpg")
+noimg = images.read("./no.jpg")
+
+while(1){
+    sleep(1000)
+    img = captureScreen()
+    if (a=findImage(img, queueimg))
+        click(a.x, a.y)
+    if (b=findImage(img, playimg))
+        click(b.x+50, b.y+50)
+    if (c=findImage(img, confirmimg))
+        click(c.x, c.y)
+    if (e=findImage(img, noimg))
+        click(e.x, e.y)
+    if (d=findImage(img, closeimg))
+        click(d.x, d.y)
+}
